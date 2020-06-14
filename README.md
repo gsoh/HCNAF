@@ -5,7 +5,7 @@
 </p>
 
 - Pytorch implementation of HCNAF by Geunseob (GS) Oh, Jean-Sebastien Valois
-- [HCNAF - CVPR 2020 preprint](https://arxiv.org/abs/1912.08111)
+- [Link to the paper - CVPR 2020](http://openaccess.thecvf.com/content_CVPR_2020/html/Oh_HCNAF_Hyper-Conditioned_Neural_Autoregressive_Flow_and_its_Application_for_Probabilistic_CVPR_2020_paper.html)
 
 
 ## Requirements
@@ -72,12 +72,12 @@ python test_PRECOG_Carla.py --task extra_PNLL --loadpath $PATH_TO_MODEL_FOLDER -
 
 ## Citation (BibTeX)
 ```
-@article{oh2019hcnaf,
-  title={HCNAF: Hyper-Conditioned Neural Autoregressive Flow and its Application for Probabilistic Occupancy Map Forecasting},
-  author={Oh, Geunseob and Valois, Jean-Sebastien},
-  journal={arXiv},
-  pages={arXiv--1912},
-  year={2019}
+@InProceedings{Oh_2020_CVPR,
+author = {Oh, Geunseob and Valois, Jean-Sebastien},
+title = {HCNAF: Hyper-Conditioned Neural Autoregressive Flow and its Application for Probabilistic Occupancy Map Forecasting},
+booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
 }
 ```
 
